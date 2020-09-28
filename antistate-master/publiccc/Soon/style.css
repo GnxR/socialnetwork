@@ -1,0 +1,53 @@
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+body {
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: #151515;
+}
+.logo{
+	height: 100%;
+	width: 100%;
+    opacity: .5;
+	position: absolute;
+}
+
+.countdown {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.time-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-family: sans-serif;
+	padding: 0 30px;
+	border-right: 1px solid #fff;
+	user-select: none;
+}
+
+.time-section:last-child {
+	border: none;
+}
+
+.count {
+	font-size: 50px;
+}
+
+.units {
+	font-size: 15px;
+}

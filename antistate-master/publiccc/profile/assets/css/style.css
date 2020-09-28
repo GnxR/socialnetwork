@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #151515;
+    font-size: 15px;
+    color: white;
+    line-height: 1.6;
+}
+*, 
+*:after, 
+*:before{
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {margin: 0;}
+.container{
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header{
+    height: 80px;
+    padding-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    position:  absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100%;
+    background: #191919;
+}
+.header_logo
+{
+}
+.nav{
+    font-size: 14px;
+    font-family: 'Montserrat', 'light';
+
+}
+.nav_link {
+    color: #7d7d7d;
+    text-decoration: none;
+     margin: 0 15px;
+
+    
+    
+    transition: color .2s linear;
+}
+.nav_link:hover:active{
+    color: #9436f1;
+}
+.nav_link:hover{
+    color: #9436f1;
+}
+.profile{
+margin-top: 160px;
+height: 550px; 
+border-bottom: 2px solid #111111;
+}
+.profile_block{
+margin-top: -170px;
+margin-left: 250px;
+}
+.profile_name{
+
+font-weight:bold;
+font-size: 35px;
+
+}
+.profile_status{
+font-size: 14px;
+font-weight: normal;
+
+}
+.profile_subscribe{
+margin-top: 30px;  
+}
+.sub_status{
+margin-top: -28px;
+margin-left: 50px;
+}
+.profile_photos{
+float: left;
+margin-top: 160px;
+width: 130px;
+}
+.profile_line{
+    
+}
+.profile_avatar{
+}
+.profile_border{
+    
+    
+}
+

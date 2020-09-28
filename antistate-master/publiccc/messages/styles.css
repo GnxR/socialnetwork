@@ -1,0 +1,247 @@
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+body{
+	height: 1080px;
+	width: 1920px;
+	background-color: #151515;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px; 
+	overflow: hidden;
+}
+.dialog{
+	height: 700px;
+}
+.header{
+	height: 80px;
+	width: 1920px;
+	background-color: #191919;
+	justify-content: flex-end;
+	display: flex;
+	padding: 10px;
+}
+.header-inner{
+	margin-right: 300px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+.function{
+	font-weight: 300;
+	margin-left: 15px;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+}
+.function:hover{
+color:#58268a;
+}
+.funk2{
+	margin-left: 70px;
+}
+.dec{
+	text-decoration: none;
+}
+.contact{
+	margin-left: 450px;
+	background-color: #191919;
+	width: 200px;
+	height: 70px;
+}
+input[type="search"]{
+	border: 1px solid #737373;
+	outline: 0;
+	text-orientation: center;
+	margin-top: 10px;
+	background-color: #191919;
+    color:#4c4c4c;
+	margin-left: 20px;
+	border-radius: 5px;
+	height: 40px;
+	width: 160px;
+}
+input[type="searchText"]{
+	border: 1px solid #737373;
+	outline: 0;
+	text-orientation: center;
+	margin-top: 20px;
+	background-color: #191919;
+    color:#4c4c4c;
+	margin-left: 40px;
+	border-radius: 5px;
+	height: 30px;
+	width: 160px;
+}
+.guys{
+	margin-left: 400px;
+	position: relative;
+	width: 85%
+	padding-top: 40px;
+	width: 250px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	background-color: #151515;
+	float: left;
+}
+.avatars{
+	margin-top: 10px;
+	margin-left: 50px;
+	position: absolute;
+	width: 15%;
+	float:left;
+	display: flex;
+	flex-direction: column;
+}
+.avatar{
+	margin-top: 20px;
+}
+.dec{
+	margin-left: 120px;
+	margin-top: 35px;
+	color:white;
+	font-weight: 300;
+}
+.dec:hover{
+	font-weight: 500;
+}
+.logo{
+	margin-right: 300px;
+}
+.left-side{
+	width: 35%;
+	float: left;
+}
+.dialog{
+	width: 65%;
+	float: left;
+	background-color: #141414;
+	color:white;
+}
+.search-by-text{
+	width: 40%;
+	float: left;
+}
+.name-and-status{
+	width: 36%;
+	float: left;
+	color:white;
+}
+.LogoWithName{
+	margin-top: 15px;
+	width:4%;
+	float: left;
+}
+.status{
+	margin-left:10px; 
+	color:grey;
+	font-weight: 300;
+}
+.More{
+	position: relative;
+	margin-top: 50px;
+	width: 20%;
+	float: left;
+}
+.and{
+	margin-left: 10px;
+}
+.Friend-Block{
+	float: left;
+	width: 50%;
+}
+.friend{
+	margin-left: 20px; 
+	width: 200px;
+	height: 50px;
+	border-radius: 0px 10px 10px 10px;
+	border: 1px;
+	background-color: #252525;
+ 
+}
+.In-Block-Friend{
+	padding: 10px;
+}
+.You-Block{
+	float: left;
+	width: 50%;
+}
+.you{
+	margin-left: 500px;
+	margin-top: 100px;
+	width: 40px;
+	height: 20px;
+	border-radius: 10px;
+	border: 1px;
+	background-color: #252525;
+}
+.In-Block-You{
+	margin-left:4px;
+	padding: 2px;
+}
+.AnswerFriend{
+	margin-left: 350px;
+	width: 200px;
+	height: 100px;
+	border-radius: 10px 0px 10px 10px;
+	border: 1px;
+	background-color: #252525;
+}
+.space{
+	position: absolute;
+	margin-left: 6px;
+	border-radius: 20px;
+	border: 1px;
+	width: 60px;
+	height: 2px;
+	background-color: #9633fb;
+}
+.Answer-In-block{
+	padding: 8px;
+}
+.Last-Message{
+	position: relative;
+	padding-top: 20px;
+	margin-left: 10px;
+	color: grey;
+}
+.Friend-Typing{
+	font-weight: 300;
+	color:grey;
+	margin-top: 650px;
+	margin-left: 400px;
+}
+input[type="message"]{
+	border: 1px solid #737373;
+	outline: 0;
+	margin-left: 850px;
+	margin-top: 10px;
+	background-color: #191919;
+    color:white;
+	border-radius: 5px;
+	height: 40px;
+	width: 600px; 
+}
+.typeBlock{
+	margin-top: 700px;
+	position: absolute;
+	width: 94%;
+	float: left;
+}
+.enterImages{
+	margin-top: 6px;
+	margin-left: 400px;
+	position: relative;
+	width: 3%;
+	float: left;
+}
+.JustEnter{
+	margin-top: 8px;
+	margin-left: 1010px;
+	position: relative;
+	width: 3%;
+	float: left;
+}

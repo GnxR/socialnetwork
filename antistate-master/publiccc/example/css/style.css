@@ -1,0 +1,42 @@
+body
+{
+   background-color: #18191A;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+
+
+.outer
+{
+   padding: 350px;
+}
+
+.content{
+   margin: 0 auto;
+   width: 500px; 
+   text-align: center;
+   position: relative;
+}
+.lables{
+   z-index: 2;
+}
+.lables h1{
+   color: #FFF;
+}
+.lables p{
+   color: #FFF;
+   font-size: 15px;
+}
+.bgimg{
+   position: absolute;
+   width: 600px;
+   height: 600px;
+   left: 0px;
+   top: -320px;
+   z-index: -1;
+}

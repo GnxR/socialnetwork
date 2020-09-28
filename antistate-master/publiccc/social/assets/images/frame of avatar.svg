@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.719" height="32.781" viewBox="0 0 32.719 32.781">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #858585;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-1" d="M505.606,273.807a15.391,15.391,0,1,1-15.351,15.39A15.37,15.37,0,0,1,505.606,273.807Z" transform="translate(-489.25 -272.813)"/>
+</svg>
