@@ -1,2 +1,2 @@
 # socialnetwork
-social net with rest api
+social network with rest api
